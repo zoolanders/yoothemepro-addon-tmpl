@@ -2,10 +2,10 @@
 
 module.exports = {
 
-    input: 'mymodule/src/customizer/index.js',
+    input: 'assets/src/customizer/index.js',
 
     output: {
-        file: 'mymodule/customizer.min.js',
+        file: 'assets/customizer.min.js',
         format: 'iife',
         globals: {
             vue: 'Vue',
